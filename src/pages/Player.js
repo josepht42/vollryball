@@ -3,6 +3,8 @@ import gamesdata from '../data/gamesdata.js';
 import 'react-table/react-table.css';
 import GamesTable from "../components/GamesTable";
 
+
+
 class Player extends Component {
     render() {
         const playerName = this.props.match.params.Name;
